@@ -1,0 +1,25 @@
+#navbar {
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+#navbar a {
+  color: #c4e1f6;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+#navbar a:hover {
+  background-size: contain;
+  color: #ffffff;
+}
+#logo{
+  position: relative;
+  height: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#mainSect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
