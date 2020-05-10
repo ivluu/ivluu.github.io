@@ -2,9 +2,39 @@
   background-color: black;
   margin-bottom: 50px;
 }
-.navbar-header{
-    width:200px;
-    margin-left:8.3333% !important;
+#navbar a {
+  color: #c4e1f6;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+#navbar a:hover {
+  background-size: contain;
+  color: #ffffff;
+}
+.navbar-toggler {
+  position: absolute;
+  top: 30px;
+  right: 16px;
+}
+#logo {
+  height: auto;
+  margin-bottom: 5px;
+}
+#mainSect {
+  display: flex;
+  align-items: center;
+}
+body {
+  text-align: center;
+}
+body img {
+  height: 200px;
+  margin-bottom: 25px;
+}
+#navbar {
+  background-color: black;
+  margin-bottom: 50px;
 }
 #navbar a {
   color: #c4e1f6;
