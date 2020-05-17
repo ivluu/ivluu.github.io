@@ -28,7 +28,8 @@
 body {
   text-align: center;
 }
-body img {
+#pfp {
   height: 200px;
   margin-bottom: 25px;
+  border-radius: 50%;
 }
