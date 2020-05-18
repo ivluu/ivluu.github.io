@@ -22,24 +22,27 @@ body {
   text-align: center;
 }
 #pfp {
-  max-height: 50%;
+  max-width: 50%;
   margin-bottom: 1%;
   border-radius: 50%;
 }
-#slideshow {
-  max-width: 50%;
+#infoCont {
+  max-width: 40%;
+  padding-bottom: 20px;
   margin: auto;
 }
-#infoCont {
-  max-width: 50%;
-  padding-left: 120px;
-  padding-bottom: 20px;
+#slideshow {
+  max-width: 30%;
+  margin: auto;
 }
 #myInfo {
-  text-align: left;
+  text-align: center;
+  font-size: 90%;
+  margin:auto;
 }
 #cards {
   max-width: 100%;
+  margin: auto;
 }
 #infoHead {
   padding-bottom: 1%;
