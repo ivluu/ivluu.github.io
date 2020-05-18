@@ -34,6 +34,7 @@ body {
 #slideshow {
   max-width: 30%;
   margin: auto;
+  padding-bottom: 5%;
 }
 #myInfo {
   text-align: center;
