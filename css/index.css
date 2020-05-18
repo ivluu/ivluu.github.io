@@ -33,10 +33,6 @@ body {
   margin-bottom: 30px;
   border-radius: 50%;
 }
-.container {
-  width: 530px;
-  padding-bottom: 200px;
-}
 #cardName {
   font-size: 25px;
   color: #f5f5e1;
