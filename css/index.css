@@ -34,7 +34,7 @@ body {
 #slideshow {
   max-width: 30%;
   margin: auto;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 #myInfo {
   text-align: center;
@@ -47,4 +47,8 @@ body {
 }
 #infoHead {
   padding-bottom: 1%;
+}
+#subHead {
+  padding-bottom: 1%;
+  color: #7098b5;
 }
