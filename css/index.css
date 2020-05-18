@@ -2,10 +2,6 @@
   background-color: black;
   margin-bottom: 50px;
 }
-.navbar-header{
-    width:200px;
-    margin-left:8.3333% !important;
-}
 #navbar a {
   color: #c4e1f6;
   text-align: center;
@@ -17,22 +13,21 @@
   color: #ffffff;
 }
 .navbar-toggler {
-  position: absolute;
-  top: 30px;
-  right: 16px;
-}
-#logo {
-  height: auto;
-  margin-bottom: 5px;
-}
-#mainSect {
-  display: flex;
-  align-items: center;
+  position: static;
+  margin-left: -1px;
+  margin-right: -50px;
 }
 body {
+  padding-top: 120px;
   text-align: center;
 }
-body img {
-  height: 200px;
-  margin-bottom: 25px;
+#pfp {
+  height: 150px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+#slideshow {
+  width: 500px;
+  margin: auto;
 }
