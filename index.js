@@ -8,7 +8,3 @@ $(document).ready(function() {
     fade: true
   });
 });
-
-$('.navbar-toggler').on("click", function(){
-    $('#pushContent').slideToggle();
-});
