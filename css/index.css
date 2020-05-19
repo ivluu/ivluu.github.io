@@ -32,7 +32,8 @@ body {
   margin: auto;
 }
 #slideshow {
-  max-width: 50%;
+  min-width: 300px;
+  max-width: 30%;
   margin: auto;
   padding-bottom: 2%;
 }
