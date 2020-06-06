@@ -27,7 +27,6 @@ body {
   border-radius: 50%;
 }
 #infoCont {
-  max-width: 70%;
   padding-bottom: 20px;
   margin: auto;
 }
@@ -40,10 +39,6 @@ body {
 #myInfo {
   text-align: center;
   font-size: 90%;
-  margin: auto;
-}
-#activityPic {
-  max-width: 100%;
   margin: auto;
 }
 #infoHead {
