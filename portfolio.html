@@ -32,46 +32,46 @@
     <meta property="og:image" content="images/ilvvsionVapor.png" />
   </head>
   
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="grid-container">
-          <div class="grid-item"></div>
-          <div class="grid-item"><a href="index.html" id="home" style=" justify-content: center; font-size: 24pt;">Ivan Luu</a></div>
-          <div class="grid-item"></div>
-          <div class="grid-item">
-            <div class="navbar-collapse collapse dual-nav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-              <a class="nav-link" href="index.html">About Me</a>
-                </li>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="navbar-collapse collapse dual-nav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="navbar-collapse collapse dual-nav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </div>
-          </div>
-      </nav>
+    <div class="grid-container">
+      <div class="grid-item"></div>
+      <div class="grid-item"><a href="index.html" id="home" style=" font-size: 24pt;">Ivan Luu</a></div>
+      <div class="grid-item"></div>
 
-        <body>
+      <div class="grid-item">
+        <div class="navbar-collapse collapse dual-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+            </li>
+        </div>
+      </div>
 
+      <div class="grid-item">
+        <div class="navbar-collapse collapse dual-nav" style="justify-content: center;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" style="text-align: center;">Portfolio</a>
+            </li>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="navbar-collapse collapse dual-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+          <a class="nav-link" href="contact.html" style="padding-left: 0;">Contact</a>
+            </li>
+        </div>
+      </div>
+  </nav>
+    <body>
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Logos')" id="defaultOpen">Logos</button>
-            <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+            <button class="tablinks" onclick="openTab(event, 'Logos')" id="defaultOpen">Logos</button>
+            <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
         </div>
 
         <div id="Logos" class="tabcontent">
@@ -84,7 +84,7 @@
             <br>
             <details>
               <summary style="font-size: 24px;">Realrayford</summary>
-              <p>These are different terations of the realrayford logo created for social media and branding purposes.
+              <p style="text-align: left;">These are different terations of the realrayford logo created for social media and branding purposes.
                 New iterations are usually inspired by holidays and changes in season, and vinyl stickers are usually
                 ordered for every iteration.
               <br>
@@ -99,7 +99,7 @@
             <br>
             <details>
             <summary style="font-size: 24px;">Warren Organization on Cultural Experience (WOCE)</summary>
-            <p>A member of WOCE at the University of California, San Diego asked me to update their logo. 
+            <p style="text-align: left;">A member of WOCE at the University of California, San Diego asked me to update their logo. 
             This is the first and final product.
             </p>
             </details>
@@ -112,7 +112,7 @@
             <br>
             <details>
                 <summary style="font-size: 24px;">PVRG</summary>
-                <p>The full name is a secret, but 'PVRG' is the acronym my friends and I use for our group/team name 
+                <p style="text-align: left;">The full name is a secret, but 'PVRG' is the acronym my friends and I use for our group/team name 
                     in competitive video games. I needed a new wallpaper and couldn't find one I liked, so I made one instead,
                     along with a new logo for our group/team. This was the result.
                 </p>
@@ -127,14 +127,16 @@
             <br>
             <details>
               <summary style="font-size: 24px;">Corpus Callosum (CoCa)</summary>
-              <p>This logo represents CoCa, an organization at the University of Southern California (USC),
+              <p style="text-align: left;">This logo represents CoCa, an organization at the University of Southern California (USC),
                 which focuses on combining engineering and art.
-
+                <br>
+                <br>
                 This logo is not an original design, but a correction of the original, so I can't take much credit
                 for this peice. The organization was in need of the original files, but its designer was not available 
                 at the time. I volunteered to recreate it per request of their vice president.
-
-                While recreating the logo, I noticed that it was neither aligned to a circle, nor were its elements 
+                <br>
+                <br>
+                While recreating the logo, I noticed it was neither aligned to a shape, specifically a circle, nor were its elements 
                 proportionate in size and distance relative to eachother. The recreation was completely done from scratch, 
                 with reference to the original, but without image tracing or manipulation of the original image.
               </p>
@@ -144,11 +146,34 @@
             <br>
         </div>
 
-        <div id="Projects" class="tabcontent"></div>
-        </body>
+        <div id="Projects" class="tabcontent">
+            <div class="container">
+                <img src="images/pomoTimer.png" style="width: 400px; margin-top: 30px;">
+            </div>
+            <br>
 
-        <script>
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
+            <p>Check out the timer <a href="https://ivluu.github.io/PomodoroTimer/">here</a></p>
+            <details>
+            <summary style="font-size: 24px;">Pomodoro Timer</summary>
+            <p style="text-align: left;">For my software engineering course, I was assigned to team of eight members. The main focus
+            of the course was to plan, develop, and test a web application based on the Pomodoro technique using
+            <a href="https://www.atlassian.com/agile">agile</a> methodologies.
+            <br>
+            <br>
+            Each member was given a specific role/task each week. During the beginning, my main tasks were to design the interface ande create working prototypes.
+            After we decided on a final design, I would soon work on the tasklist functionality and some front-end development. Towards the
+            end of development, before the deadline, I was responsible for refining the overall application making sure our team didn't miss
+            any details in terms of features.
+            </p>
+            </details>
+            <br>
+            <br>
+            <br>
+            </div>
+            </body>
+
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
     </html>
