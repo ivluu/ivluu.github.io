@@ -28,6 +28,7 @@
 body {
   padding-top: 140px;
   text-align: center;
+  overflow-y: scroll; /* Show vertical scrollbar */
 }
 #pfp {
   max-width: 50%;
