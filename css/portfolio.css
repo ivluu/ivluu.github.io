@@ -33,6 +33,7 @@ body {
     text-align: center;
     margin: auto;
     max-width: 1000px;
+    overflow-y: scroll; /* Show vertical scrollbar */
 }
 .tab {
     overflow: hidden;
