@@ -1,0 +1,48 @@
+nav {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+}
+
+.list {
+    margin-top: 0px;
+    list-style-type: none;
+    height: 50%;
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-nav {
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    font-size: calc(16px + 1vmin);
+    cursor: pointer;
+    color: #25e9df;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-nav:hover {
+    color: rgb(248, 241, 210);
+}
+
+.active {
+    color: rgb(248, 241, 210);
+  }
+
+.sep {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
