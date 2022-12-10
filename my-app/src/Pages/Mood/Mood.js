@@ -6,11 +6,11 @@ export default function Mood() {
         <div>
             <section class="container2">
                 <section class="constrict">
-                    <h2>Philosophy</h2>
+                    {/* <h2>Philosophy</h2>
                     <p>
                         Being revised
                     </p>
-                    <br></br>
+                    <br></br> */}
                     <h2>Motivation</h2>
                     <p>
                         Growing up an only child and having to learn and discover things on my own is a big reason why I am more intrigued by things than people.
@@ -26,7 +26,7 @@ export default function Mood() {
                     </p>
                     <ul>
                         <li>
-                            Fashion
+                            <b>Fashion</b>
                             <ul>
                                 <li>Ader Error</li>
                                 <li>Aimé Leon Dore</li>
@@ -35,8 +35,9 @@ export default function Mood() {
                                 <li>Maison Kitsuné</li>
                             </ul>
                         </li>
+                        <br></br>
                         <li>
-                            Film
+                            <b>Film</b>
                             <ul>
                                 <li>The Grand Budapest Hotel</li>
                                 <li>Blade Runner 2049</li>
