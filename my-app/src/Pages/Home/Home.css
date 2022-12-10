@@ -6,7 +6,7 @@
 }
 
 .container p {
-    margin-left: 20px;
+    margin-left: 25px;
     cursor: default;
     font-weight: 200;
     text-align: left;
@@ -19,7 +19,9 @@
 }
 
 #portrait {
-    max-width: 300px;
+    width: 20%;
+    min-width: 200px;
+    max-width: 350px;
     object-fit: contain;
 }
 
@@ -43,6 +45,9 @@
         flex-wrap: wrap;
         margin-top: 18vw;
         justify-content: center;
+    }
+    .container p{
+        font-size: 2.5vw;
     }
 
 }
