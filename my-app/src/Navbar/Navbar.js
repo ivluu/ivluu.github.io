@@ -10,19 +10,19 @@ export default function Navbar() {
             <ul className='list'>
                 <li>
                     <NavLink exact={true} activeClassName="active" to="/" className="main-nav">Home</NavLink>
-                    </li>
+                </li>
                 <li className="sep"> </li>
                 <li>
                     <NavLink exact={true} activeClassName="active" to="/work" className="main-nav">Work</NavLink>
-                    </li>
+                </li>
                 <li className="sep"> </li>
                 <li>
                     <NavLink exact={true} activeClassName="active" to="/play" className="main-nav">Play</NavLink>
-                    </li>
+                </li>
                 <li className="sep"> </li>
                 <li>
                     <NavLink exact={true} activeClassName="active" to="/mood" className="main-nav">Mood</NavLink>
-                    </li>
+                </li>
             </ul>
         </nav>
     )
