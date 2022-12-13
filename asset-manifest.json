@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.414c564a.css",
+    "main.css": "/static/css/main.d13c719f.css",
     "main.js": "/static/js/main.82879897.js",
     "static/media/IvanLuuUCSD.png": "/static/media/IvanLuuUCSD.77694761804a1d724040.png",
     "static/media/onwardProto.png": "/static/media/onwardProto.cfe9f36bb50d174c6ff3.png",
@@ -8,11 +8,11 @@
     "static/media/pomoTimer.png": "/static/media/pomoTimer.fcd87aac47ddf7a6a2ca.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.1b7923b714c59ea551c5.png",
     "index.html": "/index.html",
-    "main.414c564a.css.map": "/static/css/main.414c564a.css.map",
+    "main.d13c719f.css.map": "/static/css/main.d13c719f.css.map",
     "main.82879897.js.map": "/static/js/main.82879897.js.map"
   },
   "entrypoints": [
-    "static/css/main.414c564a.css",
+    "static/css/main.d13c719f.css",
     "static/js/main.82879897.js"
   ]
 }
