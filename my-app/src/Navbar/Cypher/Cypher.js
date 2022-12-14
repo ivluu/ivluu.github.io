@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 import './Cypher.css'
 
 export default function Cypher() {
     return (
-        <div class="logo">
-            <Link exact to="/" id="myName" onMouseOver={cypherIn} onMouseLeave={cypherOut}>ilvvsion</Link>
+        <div className="logo">
+            <NavLink to="/" id="myName" onMouseOver={cypherIn} onMouseLeave={cypherOut}>ilvvsion</NavLink>
             <h5 id="roman">↑ hover over me ↑</h5>
         </div>
     )

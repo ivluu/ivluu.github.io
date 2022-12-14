@@ -5,7 +5,7 @@ import './Home.css';
 export default function Home() {
     return (
         <div>
-            <section class="container">
+            <section className="container">
                 <img id='portrait' src={pfp} alt="portrait"></img> 
                 <p>
                     <br></br>
