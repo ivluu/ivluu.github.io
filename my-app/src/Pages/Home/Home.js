@@ -15,7 +15,7 @@ export default function Home() {
                     <b>Email: </b>ivluu@ucsd.edu<br></br><br></br>
                     “If everything seems under control, you're just not going fast enough.”<br></br>
                     - Mario Andretti<br></br><br></br>
-                    <a href='https://drive.google.com/file/d/1H_fcsc0RUoVH05dEiD7KS5fN1eYU77SS/view?usp=sharing'style={{color:'pink'}}>Download My Resume</a>
+                    <a href='https://drive.google.com/file/d/1H_fcsc0RUoVH05dEiD7KS5fN1eYU77SS/view?usp=sharing'style={{color:'pink'}} target="_blank">Download My Resume</a>
                 </p>
             </section>
 
