@@ -1,5 +1,5 @@
 import React from 'react'
-import pfp from "./Images/IvanLuuUCSD.png"
+import pfp from "./Images/PFP.png"
 import './Home.css';
 
 export default function Home() {
