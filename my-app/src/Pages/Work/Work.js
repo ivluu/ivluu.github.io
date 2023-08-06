@@ -4,12 +4,24 @@ import Portfolio from './Images/Portfolio.png'
 import Pomodoro from './Images/pomoTimer.png'
 import Onward from './Images/onwardProto.png'
 import Linkedin from './Images/linkedInProto.png'
+import AC from './Image/ACrevision.png'
 
 export default function Work() {
     return (
         <div>
             <section class="container2">
                 <section style={{display:'inline-block', textAlign:'left'}}>
+                    
+                    <section class="constrict">
+                        <h2>Angeles College Brand Revision</h2>
+                        <p>Brand guide of the proposed identity revision for Angeles College</p>
+                        <a href='https://www.notion.so/ac-brand/The-Angeles-College-Brand-Revision-000e3ef4c09a441389d8333c6e68e8a8?pvs=4' target='_blank' rel="noreferrer" style={{color:'deeppink'}}>visit</a><br></br>
+                        <section class="constrict2">
+                            <img src={AC} id='ac' alt='AC' style={{minWidth:'300px', objectFit:'contain'}}></img>
+                        </section>
+                        
+                    </section>
+                    
                     <section class="constrict">
                         <h2>Logo Design</h2>
                         <p>Logos created for clients, organizations, and projects.</p>
