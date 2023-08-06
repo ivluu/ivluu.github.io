@@ -4,7 +4,7 @@ import Portfolio from './Images/Portfolio.png'
 import Pomodoro from './Images/pomoTimer.png'
 import Onward from './Images/onwardProto.png'
 import Linkedin from './Images/linkedInProto.png'
-import AC from './Image/ACrevision.png'
+import AC from './Images/ACrevision.png'
 
 export default function Work() {
     return (
