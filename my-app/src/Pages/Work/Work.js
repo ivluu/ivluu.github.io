@@ -17,7 +17,7 @@ export default function Work() {
                         <p>Brand guide of the proposed identity revision for Angeles College</p>
                         <a href='https://www.notion.so/ac-brand/The-Angeles-College-Brand-Revision-000e3ef4c09a441389d8333c6e68e8a8?pvs=4' target='_blank' rel="noreferrer" style={{color:'deeppink'}}>visit</a><br></br>
                         <section class="constrict2">
-                            <img src={AC} id='ac' alt='AC' style={{minWidth:'300px', objectFit:'contain'}}></img>
+                            <img src={AC} id='ac' alt='AC' style={{minWidth:'300px', maxWidth:'500px', objectFit:'contain'}}></img>
                         </section>
                         
                     </section>
